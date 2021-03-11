@@ -93,7 +93,7 @@ class App extends Component{
       .then(response => {
         if (response) {
           console.log(response)
-          fetch('https://nameless-temple-55729.herokuapp.com/3000/image', {
+          fetch('https://nameless-temple-55729.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
